@@ -1,4 +1,8 @@
 # account-setup
+
+Ths repo is deprecated in favor of https://github.com/omnistrate-oss/account-setup
+
+# account-setup
 Terraform script to setup your account to provision your services
 
 ## Setup your AWS account for Omnistrate
