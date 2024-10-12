@@ -1,5 +1,5 @@
 
-# deprecated repo
+# Deprecation notice
 
 This repo will no longer be maintained, pls refer to https://github.com/omnistrate-oss/account-setup to get the latest version
 
