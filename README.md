@@ -1,5 +1,15 @@
+
 # account-setup
 Terraform script to setup your account to provision your services
+
+## ⚠️ Deprecation Notice
+
+Effective on **March 1st 2025** we are **removing the capability to onboard Cloud Accounts with Terraform**. Instead, **Cloud Formation** and **Google Cloud Shell**  will be the preferred method for onboarding new Cloud Accounts on **Omnistrate**, both for Service Provider Hosted offerings and Bring Your Own Account.  
+
+- More details on deprecation for [AWS](/aws/README.MD)
+- More details on deprecation for [GCP](/gcp/README.MD)
+<br/>
+<br/>
 
 ## Setup your AWS account for Omnistrate
 ### Please replace the `suffix-from-platform` with the ID shown on the create account config screen
@@ -13,6 +23,8 @@ TF_VAR_account_config_identity_id=<suffix-from-platform> terraform apply
 ### Ensure the following services are enabled (please replace the `project-id` with your project ID)
 - IAM Service Account Credentials API
 https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com?project=project-id
+- Cloud Resource Manager API
+https://console.cloud.google.com/apis/library/cloudresourcemanager.googleapis.com?project=project-id
 - Compute Engine APIs
 https://console.cloud.google.com/apis/library/compute.googleapis.com?project=project-id
 - Kubernetes Engine APIs
