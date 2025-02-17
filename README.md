@@ -1,5 +1,15 @@
+
 # account-setup
 Terraform script to setup your account to provision your services
+
+## ⚠️ Deprecation Notice
+
+Effective on **March 1st 2025** we are **removing the capability to onboard Cloud Accounts with Terraform**. Instead, **Cloud Formation** and **Google Cloud Shell**  will be the preferred method for onboarding new Cloud Accounts on **Omnistrate**, both for Service Provider Hosted offerings and Bring Your Own Account.  
+
+- More details on deprecation for [AWS](/aws/README.MD)
+- More details on deprecation for [GCP](/gcp/README.MD)
+<br/>
+<br/>
 
 ## Setup your AWS account for Omnistrate
 ### Please replace the `suffix-from-platform` with the ID shown on the create account config screen
